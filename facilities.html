@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/font-awesome.min.css" />
+    <link rel="stylesheet" href="styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>GrandHotels</title>
+  </head>
+  <body>
+    <!--NavBar-->
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top main_header">
+      <div class="container">
+        <a class="navbar-brand mr-auto" href="index.html">
+          <svg
+            width="150"
+            height="40"
+            viewBox="0 0 170 57"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M29.2344 32.4531C26.5312 33.6406 23.1484 34.2344 19.0859 34.2344C7.25781 34.2344 1.34375 28.4141 1.34375 16.7734C1.34375 5.75781 7.35938 0.25 19.3906 0.25C23.0625 0.25 26.3438 0.796875 29.2344 1.89062V7.51562C26.3438 6.26562 23.2188 5.64062 19.8594 5.64062C11.8125 5.64062 7.78906 9.35156 7.78906 16.7734C7.78906 24.8203 11.5859 28.8438 19.1797 28.8438C20.3047 28.8438 21.5859 28.6562 23.0234 28.2812V18.5312H29.2344V32.4531ZM35.0938 33.9531V0.484375H50.3281C57.1719 0.484375 60.5938 3.47656 60.5938 9.46094C60.5938 13.5078 57.9297 16.8594 52.6016 19.5156L63.2188 34H55.3906L45.1953 19.3984V16.5625C51.1328 15.5469 54.1016 13.2422 54.1016 9.64844C54.1016 7.17969 52.7109 5.94531 49.9297 5.94531H41.4219V33.9531H35.0938ZM69.6172 34H63.2422L77.4688 0.484375H84.1484L98.6797 34H92L88.1797 24.8594H77.0469L79.1797 19.4688H85.9297L80.6562 6.88281L69.6172 34ZM102.781 34V0.484375H108.992L126.688 24.9062V0.484375H132.664V34H126.453L108.758 9.0625V34H102.781ZM152.844 28.6094C159.797 28.6094 163.273 24.5156 163.273 16.3281C163.273 9.35938 159.797 5.875 152.844 5.875H145.93V28.6094H152.844ZM139.719 34V0.484375H152.844C163.938 0.484375 169.484 5.76562 169.484 16.3281C169.484 28.1094 163.938 34 152.844 34H139.719ZM0.660156 56V42.0352H2.4668V48.1875H10.7188V42.0352H12.5254V56H10.7188V49.6523H2.4668V56H0.660156ZM17.2715 48.9785C17.2715 52.748 18.974 54.6328 22.3789 54.6328C25.7122 54.6328 27.3789 52.748 27.3789 48.9785C27.3789 45.2611 25.7122 43.4023 22.3789 43.4023C18.974 43.4023 17.2715 45.2611 17.2715 48.9785ZM15.3672 49.0371C15.3672 44.304 17.7044 41.9375 22.3789 41.9375C26.9818 41.9375 29.2832 44.304 29.2832 49.0371C29.2832 53.7441 26.9818 56.0977 22.3789 56.0977C17.7044 56.0977 15.3672 53.7441 15.3672 49.0371ZM41.5488 42.0352V43.5H37.1543V56H35.3477V43.5H30.9531V42.0352H41.5488ZM52.8379 42.0352V43.5H45.5137V48.1875H52.4961V49.6523H45.5137V54.5352H52.9844V56H43.707V42.0352H52.8379ZM57.5254 42.0352V54.5352H64.8301V56H55.7188V42.0352H57.5254ZM66.793 55.5117V53.8516C68.2578 54.3724 69.8398 54.6328 71.5391 54.6328C73.9414 54.6328 75.1426 53.7539 75.1426 51.9961C75.1426 50.4987 74.2572 49.75 72.4863 49.75H70.6895C67.7663 49.75 66.3047 48.4805 66.3047 45.9414C66.3047 43.2721 68.1764 41.9375 71.9199 41.9375C73.5475 41.9375 75.0612 42.1328 76.4609 42.5234V44.1836C75.0612 43.6628 73.5475 43.4023 71.9199 43.4023C69.3809 43.4023 68.1113 44.2487 68.1113 45.9414C68.1113 47.4388 68.9707 48.1875 70.6895 48.1875H72.4863C75.4616 48.1875 76.9492 49.457 76.9492 51.9961C76.9492 54.7305 75.1458 56.0977 71.5391 56.0977C69.8398 56.0977 68.2578 55.9023 66.793 55.5117Z"
+              fill="white"
+            />
+          </svg>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"
+                ><button class="btn btn-outline-light my-2 my-sm-0">
+                  HOME
+                </button></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="rooms.html"
+                ><button class="btn btn-outline-light my-2 my-sm-0">
+                  ROOMS & SUITES
+                </button></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="facilities.html"
+                ><button class="btn btn-outline-light my-2 my-sm-0">
+                  FACILITIES
+                </button></a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><button class="btn btn-outline-light my-2 my-sm-0">
+                  GALLERY
+                </button></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><button class="btn btn-outline-light my-2 my-sm-0">
+                  CONTACT US
+                </button></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><button class="btn btn-primary my-2 my-sm-0">
+                  BOOK NOW
+                </button></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--    Header-banner -->
+    <div class="jumbotron">
+      <div
+        class="container text-white d-flex flex-column justify-content-center mt-5"
+        style="height: 80vh;"
+      >
+        <div class="row mb-auto mt-auto">
+          <div class="col-md-8 col-12">
+            <h1 class="font-weight-bolder overview">
+              EXPLORE OUR FACILITIES
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cards -->
+    <div class="bg-container">
+      <div class="container amenities">
+        <div class="row mb-5">
+          <!-- card 1 -->
+          <div class="col-xl-4 col-md-6 mb-4">
+            <div class="card border-0 shadow">
+              <img
+                src="./assets/img/Rectangle 11.png"
+                class="img-fluid"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title mb-0">swimming pool</h5>
+                <div class="card-text text-black">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Excepturi.
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div class="col-xl-4 col-md-6 mb-4">
+            <div class="card border-0 shadow">
+              <img
+                src="./assets/img/Rectangle 10.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title mb-0">Gym</h5>
+                <div class="card-text text-black">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Excepturi.
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div class="col-xl-4 col-md-6 mb-4">
+            <div class="card border-0 shadow">
+              <img
+                src="./assets/img/Rectangle 13.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title mb-0">Suana & spa</h5>
+                <div class="card-text text-black">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Excepturi.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <!-- card 1 -->
+          <div class="col-xl-4 col-md-6 mb-4">
+            <div class="card border-0 shadow">
+              <img
+                src="./assets/img/Rectangle 72.png      "
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title mb-0">Conference Room</h5>
+                <div class="card-text text-black">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Excepturi.
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div class="col-xl-4 col-md-6 mb-4">
+            <div class="card border-0 shadow">
+              <img
+                src="./assets/img/Rectangle 89.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title mb-0">Lawn Tennis Court</h5>
+                <div class="card-text text-black">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Excepturi.
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div class="col-xl-4 col-md-6 mb-4">
+            <div class="card border-0 shadow">
+              <img
+                src="./assets/img/Rectangle 69.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title mb-0">Bar And Lounge</h5>
+                <div class="card-text text-black">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Excepturi.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.row -->
+      </div>
+    </div>
+    <!-- Amenities -->
+    <div class="container cont">
+      <div class="col-md-12">
+        <h3 class="ameni-header mb-5">Our amenities</h3>
+      </div>
+      <div class="row ameni-row">
+        <div class="col-md-6 align-items-center">
+          <img
+            src="./assets/img/Rectangle 33.png"
+            alt="Image"
+            class="img-fluid"
+          />
+        </div>
+        <div class="col-md-6 col-sm-offset-4 overlay-text border-0 shadow">
+          <div class="ameni-content">
+            <ul class="services list-unstyled">
+              <li>
+                <a href="#" class="fa fa-cutlery"></a>
+                <span class="services-span pl-5">24 hours in-Room Dinning</span>
+              </li>
+              <li>
+                <a href="#" class="fa fa-wifi"></a
+                ><span class="services-span pl-5">Free Wifi</span>
+              </li>
+              <li>
+                <a href="#" class="fa fa-glass"></a
+                ><span class="services-span pl-5">Restaurant</span>
+              </li>
+              <li>
+                <a href="#" class="fa fa-heart"></a>
+                <span class="services-span pl-5">Laundary</span>
+              </li>
+            </ul>
+            <p class="service-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+              nesciunt quibusdam optio eaque nostrum enim vero qui repudiandae
+              ea quis! Modi ab temporibus vel excepturi fuga reprehenderit
+              aliquam sint placeat?Lorem ipsum dolor sit, amet consectetur
+              adipisicing elit. Repellat sapiente quam, a voluptatum minus
+              quisquam, deleniti possimus quaerat aliquid ipsum doloribus
+              inventore at fugiat corrupti ad quidem officiis fuga consequatur?
+            </p>
+            <p class="service-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+              nesciunt quibusdam optio eaque nostrum enim vero qui repudiandae
+              ea quis! Modi ab temporibus vel excepturi fuga reprehenderit
+              aliquam sint placeat?Lorem ipsum dolor sit, amet consectetur
+              adipisicing elit. Repellat sapiente quam, a voluptatum minus
+              quisquam, deleniti possimus quaerat aliquid ipsum doloribus
+              inventore at fugiat corrupti ad quidem officiis fuga consequatur?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+      <div class="container footer-section">
+        <div class="row">
+          <div class="col-md-3">
+            <h2 class="footer-header mb-4 pr-5">
+              <svg
+                style="padding-right: 5rem;"
+                width="150"
+                height="40"
+                viewBox="0 0 170 57"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M29.2344 32.4531C26.5312 33.6406 23.1484 34.2344 19.0859 34.2344C7.25781 34.2344 1.34375 28.4141 1.34375 16.7734C1.34375 5.75781 7.35938 0.25 19.3906 0.25C23.0625 0.25 26.3438 0.796875 29.2344 1.89062V7.51562C26.3438 6.26562 23.2188 5.64062 19.8594 5.64062C11.8125 5.64062 7.78906 9.35156 7.78906 16.7734C7.78906 24.8203 11.5859 28.8438 19.1797 28.8438C20.3047 28.8438 21.5859 28.6562 23.0234 28.2812V18.5312H29.2344V32.4531ZM35.0938 33.9531V0.484375H50.3281C57.1719 0.484375 60.5938 3.47656 60.5938 9.46094C60.5938 13.5078 57.9297 16.8594 52.6016 19.5156L63.2188 34H55.3906L45.1953 19.3984V16.5625C51.1328 15.5469 54.1016 13.2422 54.1016 9.64844C54.1016 7.17969 52.7109 5.94531 49.9297 5.94531H41.4219V33.9531H35.0938ZM69.6172 34H63.2422L77.4688 0.484375H84.1484L98.6797 34H92L88.1797 24.8594H77.0469L79.1797 19.4688H85.9297L80.6562 6.88281L69.6172 34ZM102.781 34V0.484375H108.992L126.688 24.9062V0.484375H132.664V34H126.453L108.758 9.0625V34H102.781ZM152.844 28.6094C159.797 28.6094 163.273 24.5156 163.273 16.3281C163.273 9.35938 159.797 5.875 152.844 5.875H145.93V28.6094H152.844ZM139.719 34V0.484375H152.844C163.938 0.484375 169.484 5.76562 169.484 16.3281C169.484 28.1094 163.938 34 152.844 34H139.719ZM0.660156 56V42.0352H2.4668V48.1875H10.7188V42.0352H12.5254V56H10.7188V49.6523H2.4668V56H0.660156ZM17.2715 48.9785C17.2715 52.748 18.974 54.6328 22.3789 54.6328C25.7122 54.6328 27.3789 52.748 27.3789 48.9785C27.3789 45.2611 25.7122 43.4023 22.3789 43.4023C18.974 43.4023 17.2715 45.2611 17.2715 48.9785ZM15.3672 49.0371C15.3672 44.304 17.7044 41.9375 22.3789 41.9375C26.9818 41.9375 29.2832 44.304 29.2832 49.0371C29.2832 53.7441 26.9818 56.0977 22.3789 56.0977C17.7044 56.0977 15.3672 53.7441 15.3672 49.0371ZM41.5488 42.0352V43.5H37.1543V56H35.3477V43.5H30.9531V42.0352H41.5488ZM52.8379 42.0352V43.5H45.5137V48.1875H52.4961V49.6523H45.5137V54.5352H52.9844V56H43.707V42.0352H52.8379ZM57.5254 42.0352V54.5352H64.8301V56H55.7188V42.0352H57.5254ZM66.793 55.5117V53.8516C68.2578 54.3724 69.8398 54.6328 71.5391 54.6328C73.9414 54.6328 75.1426 53.7539 75.1426 51.9961C75.1426 50.4987 74.2572 49.75 72.4863 49.75H70.6895C67.7663 49.75 66.3047 48.4805 66.3047 45.9414C66.3047 43.2721 68.1764 41.9375 71.9199 41.9375C73.5475 41.9375 75.0612 42.1328 76.4609 42.5234V44.1836C75.0612 43.6628 73.5475 43.4023 71.9199 43.4023C69.3809 43.4023 68.1113 44.2487 68.1113 45.9414C68.1113 47.4388 68.9707 48.1875 70.6895 48.1875H72.4863C75.4616 48.1875 76.9492 49.457 76.9492 51.9961C76.9492 54.7305 75.1458 56.0977 71.5391 56.0977C69.8398 56.0977 68.2578 55.9023 66.793 55.5117Z"
+                  fill="white"
+                />
+              </svg>
+            </h2>
+            <ul class="icon d-flex list-unstyled">
+              <li><a href="#" class="fa fa-linkedin"></a></li>
+              <li><a href="#" class="fa fa-pinterest"></a></li>
+              <li><a href="#" class="fa fa-instagram"></a></li>
+              <li><a href="#" class="fa fa-facebook"></a></li>
+              <li><a href="#" class="fa fa-twitter"></a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h2 class="footer-header mb-4">Quick Links</h2>
+            <ul class="list-unstyled">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Facilities</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h2 class="footer-header mb-4">Rooms</h2>
+            <ul class="list-unstyled">
+              <li><a href="#">Presidential</a></li>
+              <li><a href="#">Executives</a></li>
+              <li><a href="#">Classic</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h2 class="footer-header mb-4">Contact</h2>
+            <ul class="list-unstyled">
+              <p>+(234) 2195 2089</p>
+              <p>
+                <li><a href="#">collinsenahoro2@gmail.com</a></li>
+              </p>
+              <p>I May Fair Boulevard</p>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row pt-5 mt-2 text-center">
+          <div class="col-md-12">
+            <div class="pt-2">
+              <p>
+                <a href="#" target="blank">© GRAND HOTELS 2020</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
